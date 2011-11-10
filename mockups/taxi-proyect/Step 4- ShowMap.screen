@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="4" x="112" y="16" measuredWidth="380" measuredHeight="720">
+    <widgets xsi:type="model:Panel" id="5" width="380" height="720" measuredWidth="380" measuredHeight="720" background="#000000" foreground="#7f7f7f" border="solid-rounded"/>
+    <widgets xsi:type="model:WidgetGroup" id="6" x="155" y="626" measuredWidth="70" measuredHeight="70">
+      <widgets xsi:type="model:Circle" id="7" width="70" height="70" measuredWidth="70" measuredHeight="70" background="#4d4d4d">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Panel" id="8" x="26" y="26" width="17" height="17" measuredWidth="17" measuredHeight="17" alpha="0" foreground="#ffffff"/>
+    </widgets>
+    <widgets xsi:type="model:Panel" id="9" x="157" y="56" width="65" height="12" measuredWidth="65" measuredHeight="12" background="#7f7f7f" border="solid-rounded"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="1" x="128" y="136" width="320" height="480" measuredWidth="320" measuredHeight="480" border="none"/>
+  <widgets xsi:type="model:WidgetGroup" id="10" x="163" y="262" width="320" measuredWidth="0" measuredHeight="0"/>
+  <widgets xsi:type="model:Rectangle" id="11" x="128" y="136" width="320" height="45" text="Step 4: Path" measuredWidth="320" measuredHeight="45" background="#93a6bd" border="none">
+    <font size="12" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="12" x="128" y="550" measuredWidth="320" measuredHeight="66">
+    <widgets xsi:type="model:WidgetGroup" id="13" measuredWidth="320" measuredHeight="66">
+      <widgets xsi:type="model:Rectangle" id="14" width="320" height="32" measuredWidth="320" measuredHeight="32" background="#282828" border="none">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Rectangle" id="15" y="32" width="320" height="34" measuredWidth="320" measuredHeight="34" background="#000000" border="none">
+        <font/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:Label" id="16" x="48" y="6" text="Home" measuredWidth="32" measuredHeight="53" textAlignment="Center" foreground="#7b7b7b" icon="calculator (large)" iconPosition="top">
+      <font size="8"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="17" x="144" y="5" text="History" measuredWidth="32" measuredHeight="53" textAlignment="Center" foreground="#7b7b7b" icon="mobile (large)" iconPosition="top">
+      <font size="8"/>
+    </widgets>
+    <widgets xsi:type="model:Rectangle" id="19" x="24" y="4" width="82" height="56" measuredWidth="82" measuredHeight="56" alpha="64" foreground="#7f7f7f" border="solid-rounded">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="20" x="232" y="5" text="Preferences" measuredWidth="48" measuredHeight="53" textAlignment="Center" foreground="#ffffff" icon="computer (large)" iconPosition="top">
+      <font size="8"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Button" id="37" x="138" y="145" width="55" height="28" text="back" measuredWidth="55" measuredHeight="28" background="#597eaa" style="pointleft">
+    <font size="8" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Map" id="51" x="160" y="200" width="241" height="305" measuredWidth="241" measuredHeight="305"/>
+  <hRuler>
+    <guides position="76"/>
+    <guides position="617"/>
+  </hRuler>
+  <vRuler/>
+  <font/>
+</model:Screen>

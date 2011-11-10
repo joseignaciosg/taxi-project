@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="5" x="-32" y="19" measuredWidth="1657" measuredHeight="2625">
+    <screen xsi:type="model:Screen" href="assets/iPhone.screen.screen#/"/>
+    <overrides>
+      <widgets ref="/@widgets.15/@widgets.1" y="12"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="4" x="112" y="16" measuredWidth="380" measuredHeight="720">
+    <widgets xsi:type="model:Panel" id="5" width="380" height="720" measuredWidth="380" measuredHeight="720" background="#000000" foreground="#7f7f7f" border="solid-rounded"/>
+    <widgets xsi:type="model:WidgetGroup" id="6" x="155" y="626" measuredWidth="70" measuredHeight="70">
+      <widgets xsi:type="model:Circle" id="7" width="70" height="70" measuredWidth="70" measuredHeight="70" background="#4d4d4d">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Panel" id="8" x="26" y="26" width="17" height="17" measuredWidth="17" measuredHeight="17" alpha="0" foreground="#ffffff"/>
+    </widgets>
+    <widgets xsi:type="model:Panel" id="9" x="157" y="56" width="65" height="12" measuredWidth="65" measuredHeight="12" background="#7f7f7f" border="solid-rounded"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="1" x="128" y="136" width="320" height="480" measuredWidth="320" measuredHeight="480" border="none"/>
+  <widgets xsi:type="model:WidgetGroup" id="10" x="163" y="262" width="320" measuredWidth="0" measuredHeight="0"/>
+  <widgets xsi:type="model:Rectangle" id="11" x="128" y="136" width="320" height="45" text="Step 3: Choose Trip" measuredWidth="320" measuredHeight="45" background="#93a6bd" border="none">
+    <font size="12" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="37" x="138" y="145" width="55" height="28" text="back" measuredWidth="55" measuredHeight="28" background="#597eaa" style="pointleft">
+    <font size="8" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="38" x="128" y="480" height="135" measuredWidth="320" measuredHeight="134">
+    <widgets xsi:type="model:Rectangle" id="39" width="320" height="68" measuredWidth="320" measuredHeight="68" background="#7b7b7b" border="none">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Rectangle" id="40" y="66" width="320" height="68" measuredWidth="320" measuredHeight="68" background="#232323" border="none">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="43" x="138" y="499" width="300" height="98" measuredWidth="300" measuredHeight="98" border="solid-rounded">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="45" x="185" y="568" text="Path 2" measuredWidth="48" measuredHeight="24">
+    <font size="13" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="46" x="185" y="528" text="Trip 1 - 20 miles - 19U$D" measuredWidth="183" measuredHeight="24" foreground="#1a4c8b">
+    <font size="13" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="49" x="154" y="529" measuredWidth="24" measuredHeight="24" foreground="#1a4c8b" icon="check (medium)"/>
+  <widgets xsi:type="model:Map" id="50" x="144" y="192" width="289" height="281" measuredWidth="289" measuredHeight="281"/>
+  <hRuler>
+    <guides position="76"/>
+  </hRuler>
+  <vRuler/>
+  <font/>
+</model:Screen>

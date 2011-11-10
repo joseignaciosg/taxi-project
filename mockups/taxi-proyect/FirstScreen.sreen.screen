@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="7" x="144" y="-8" measuredWidth="380" measuredHeight="720">
+    <widgets xsi:type="model:Panel" id="8" width="380" height="720" measuredWidth="380" measuredHeight="720" background="#000000" foreground="#7f7f7f" border="solid-rounded"/>
+    <widgets xsi:type="model:WidgetGroup" id="9" x="155" y="626" measuredWidth="70" measuredHeight="70">
+      <widgets xsi:type="model:Circle" id="10" width="70" height="70" measuredWidth="70" measuredHeight="70" background="#4d4d4d">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Panel" id="11" x="26" y="26" width="17" height="17" measuredWidth="17" measuredHeight="17" alpha="0" foreground="#ffffff"/>
+    </widgets>
+    <widgets xsi:type="model:Panel" id="12" x="157" y="56" width="65" height="12" measuredWidth="65" measuredHeight="12" background="#7f7f7f" border="solid-rounded"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="13" x="176" y="96" width="320" height="480" measuredWidth="320" measuredHeight="480" border="none"/>
+  <widgets xsi:type="model:Image" id="15" x="316" y="204"/>
+  <widgets xsi:type="model:Placeholder" id="16" x="272" y="192" width="129" height="117" text="Logo" measuredWidth="129" measuredHeight="117"/>
+  <widgets xsi:type="model:Label" id="17" x="288" y="392" text="AppName" measuredWidth="91" measuredHeight="29">
+    <font size="18"/>
+  </widgets>
+  <hRuler>
+    <guides position="79"/>
+  </hRuler>
+  <vRuler/>
+  <font/>
+</model:Screen>
