@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:WidgetGroup" id="10" x="163" y="262" width="320" measuredWidth="0" measuredHeight="0"/>
+  <widgets xsi:type="model:Master" id="37" x="232" y="56" measuredWidth="396" measuredHeight="790">
+    <screen xsi:type="model:WidgetGroup" href="assets/NexusOne.screen.screen#Phone"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="38" x="270" y="172" height="53" measuredWidth="320" measuredHeight="53">
+    <screen xsi:type="model:WidgetGroup" href="assets/NexusOne.screen.screen#Banner Left"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Insert" newIndex="1">
+        <object xsi:type="model:Label" x="34" y="236" text="Address: Current Address">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="1">
+        <object xsi:type="model:Label" x="44" y="160" text="Address: Current Address">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="1">
+        <object xsi:type="model:Label" x="34" y="150" text="Address: Current Address">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="1">
+        <object xsi:type="model:HLine" x="28" y="228" width="261"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="1">
+        <object xsi:type="model:HLine" x="28" y="180" width="261"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="1">
+        <object xsi:type="model:Button" x="28" y="412" width="271" height="57" text="Next Step" background="#6aa84f">
+          <font/>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="1">
+        <object xsi:type="model:Panel" x="18" y="140" width="281" height="137"/>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Insert" newIndex="1">
+        <object xsi:type="model:Master" height="61">
+          <screen xsi:type="model:WidgetGroup" href="assets/NexusOne.screen.screen#Banner"/>
+          <overrides>
+            <widgets ref="191" height="61"/>
+          </overrides>
+        </object>
+      </widgetChanges>
+      <widgetChanges xsi:type="o:Delete" ref="193"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="39" x="288" y="312" width="292" height="137" measuredWidth="292" measuredHeight="137">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="40" x="304" y="332" text="Address: Destination" measuredWidth="117" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="41" x="304" y="370" text="Country:" measuredWidth="51" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="42" x="304" y="418" text="City:" measuredWidth="30" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="43" x="304" y="357" width="247" measuredWidth="247" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="44" x="304" y="400" width="247" measuredWidth="247" measuredHeight="6"/>
+  <widgets xsi:type="model:Button" id="45" x="288" y="560" width="281" height="49" text="Next Step" measuredWidth="281" measuredHeight="49" background="#6aa84f">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="47" x="280" y="189" width="55" height="28" text="back" measuredWidth="55" measuredHeight="28" background="#597eaa" style="pointleft">
+    <font size="8" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="48" x="270" y="172" width="320" height="68" text="Step 2: Choose Destination" measuredWidth="320" measuredHeight="68" background="#3d85c6" foreground="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="49" x="280" y="191" width="55" height="28" text="back" measuredWidth="55" measuredHeight="28" background="#597eaa" style="pointleft">
+    <font size="8" bold="true"/>
+  </widgets>
+  <hRuler>
+    <guides position="76"/>
+  </hRuler>
+  <vRuler/>
+  <font/>
+</model:Screen>

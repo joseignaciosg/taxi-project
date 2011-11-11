@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="2" x="224" y="32" measuredWidth="396" measuredHeight="790">
+    <screen xsi:type="model:WidgetGroup" href="assets/NexusOne.screen.screen#Phone"/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="3" x="410" y="252"/>
+  <widgets xsi:type="model:Image" id="4" x="513" y="297"/>
+  <widgets xsi:type="model:Placeholder" id="5" x="352" y="264" width="137" height="121" text="logo" measuredWidth="137" measuredHeight="121"/>
+  <widgets xsi:type="model:Label" id="6" x="376" y="488" text="AppName" measuredWidth="91" measuredHeight="29">
+    <font size="18"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="10" x="163" y="262" width="320" measuredWidth="0" measuredHeight="0"/>
+  <widgets xsi:type="model:Master" id="37" x="232" y="40" measuredWidth="396" measuredHeight="790">
+    <screen xsi:type="model:WidgetGroup" href="assets/NexusOne.screen.screen#Phone"/>
+  </widgets>
+  <widgets xsi:type="model:Map" id="48" x="280" y="232" height="321" measuredWidth="300" measuredHeight="321"/>
+  <widgets xsi:type="model:List" id="49" x="280" y="564" width="299" height="97" text="Trip 1 - 20 miles - 19U$D&#xA;Trip 2 - 40 miles - 17U$D&#xA;|Trip 3 - 50 miles - 34U$D&#xA;Trip 4 - 22 miles - 49U$D" measuredWidth="299" measuredHeight="97">
+    <font/>
+    <items x="0" y="2" width="299" height="20" text="Trip 1 - 20 miles - 19U$D"/>
+    <items x="0" y="22" width="299" height="20" text="Trip 2 - 40 miles - 17U$D"/>
+    <items x="0" y="42" width="299" height="20" text="|Trip 3 - 50 miles - 34U$D"/>
+    <items x="0" y="62" width="299" height="20" text="Trip 4 - 22 miles - 49U$D"/>
+  </widgets>
+  <widgets xsi:type="model:Rectangle" id="51" x="270" y="157" width="320" height="68" text="Step 3: Choose Trip" measuredWidth="320" measuredHeight="68" background="#3d85c6" foreground="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="47" x="280" y="176" width="55" height="28" text="back" measuredWidth="55" measuredHeight="28" background="#597eaa" style="pointleft">
+    <font size="8" bold="true"/>
+  </widgets>
+  <hRuler>
+    <guides position="76"/>
+  </hRuler>
+  <vRuler/>
+  <font/>
+</model:Screen>
