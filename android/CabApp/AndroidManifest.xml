@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cab.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".activities.OriginActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".activities.DestinationActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".activities.FeedbackActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".activities.ConfigActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".activities.TripActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".activities.SelectedTripActivity" >
+        </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".activities.SelectLocationActivity" >
+        </activity>
+        <service android:name=".services.CabLogService">
+        </service>
+        <service android:name=".services.LocationWatchService">
+        </service>
+        <service android:name=".services.TripService">
+            </service>
+    </application>
+
+</manifest>
